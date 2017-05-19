@@ -1,0 +1,50 @@
+{
+  "name": "webpack-tutorial-try2",
+  "version": "1.0.0",
+  "description": "This is a starter package for using Webpack at Ada Developers Academy",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "rimraf dist && NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack-dev-server",
+    "start": "node server.js",
+    "postinstall": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "backbone": "^1.3.3",
+    "exports-loader": "^0.6.4",
+    "file-loader": "^0.11.1",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.2",
+    "postcss": "^5.2.17",
+    "postcss-flexbugs-fixes": "^3.0.0",
+    "postcss-loader": "^2.0.5",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.5",
+    "underscore-template-loader": "^0.7.3",
+    "webpack-dashboard": "^1.0.0-2",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "webpack": "^2.5.1",
+    "html-webpack-plugin": "^2.28.0",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "backbone": "^1.1.2",
+    "underscore": "^1.8.3",
+    "express": "4.15.2",
+    "jquery": "^3.2.1",
+    "postcss-flexbugs-fixes": "^3.0.0",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "uglifyjs-webpack-plugin": "^0.4.3"
+  }
+}

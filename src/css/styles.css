@@ -1,0 +1,44 @@
+@include foundation-everything;
+
+main {
+    background: lightblue;
+}
+
+header {
+  background-color: lightgreen;
+  padding: 0.5rem;
+}
+
+#completed-checkbox {
+  display: inline;
+}
+
+label {
+  display: inline;
+}
+
+button.success {
+  margin-right: 1.2rem;
+  display: inline;
+}
+
+aside.create-tasklist {
+  background-color: navy;
+  color: #FFFFFF;
+}
+aside label {
+  color: #FFFFFF;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+div {
+  display: inline;
+}
+/*
+* {
+  border-style: solid;
+}
+*/
